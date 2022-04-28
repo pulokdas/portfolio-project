@@ -7,11 +7,15 @@ h1 {
     font-size: 900;
 }
 
+h2 {
+    font-size: 500;
+}
+
 .name-color {
     color: gold;
 }
 
-section {
+.flexible-container {
     display: flex;
 
 }
@@ -26,7 +30,7 @@ section {
 }
 
 p {
-    text-align: justify;
+    text-align: left;
 }
 
 .btn {
@@ -49,4 +53,36 @@ p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+
+}
+
+#web-dev-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, rgb(231, 9, 9));
+    border-image-slice: 1;
+}
